@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    
+}
+h2{
+font-size:40px;
+}
+
+.orange-color{
+    color: orange;
+    }
+.flexible-container{
+        display: flex;
+        margin-bottom: 150px;
+    }
+.half-width{
+       width : 50%;
+       padding-left:  5%;
+       
+    }
+.half-width img{
+        width: 80%;
+    }
+ .link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 255, 76),tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    }
+    #web-focus{
+    border-left: 7px solid;
+border-image: linear-gradient(blue,rgb(255, 0, 64)) ;
+border-image-slice: 1 ;
+}
+
+    
+.experience-item{
+
+    box-shadow: 10px 10px 10px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+border-radius:5px ;
+border-image-width: 0px 0px 0px 2px;
+
+}
+#name{
+    text-align: center;
+}
+
+.top{
+    display: flex;
+    
+    
+}
+.top-ten
+{
+    order-radius: 10px;
+    
+    width: 39%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    
+    }  
+
+footer p{
+    width: 200%;
+    color: white;
+    padding: 10%;
+    text-align: center;
+background-color: brown;
+}
